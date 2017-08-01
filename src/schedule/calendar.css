@@ -1,7 +1,7 @@
 .select_header {
-	-fx-background-color: #2c3e50; 
+	-fx-background-color: #2c3e50;
 	-fx-border-color:#fff;
-	-fx-border-width:0.5px; 
+	-fx-border-width:0.5px;
 	-fx-min-height: 35px;
 }
 
@@ -14,42 +14,42 @@
 }
 
 .calendar_normal {
-	-fx-background-color:#ecf0f1; 
+	-fx-background-color:#ecf0f1;
 	-fx-border-color:#bbb;
-	-fx-border-width:0px 0.4px 0px 0.4px; 
-	-fx-text-fill:#34495e;  
+	-fx-border-width:0px 0.4px 0px 0.4px;
+	-fx-text-fill:#34495e;
 }
 
 .calendar_today {
-	-fx-background-color:#16a085; 
+	-fx-background-color:#16a085;
 	-fx-border-color:#bbb;
-	-fx-border-width:0px 0.4px 0px 0.4px; 
-	-fx-text-fill:#fff;  
+	-fx-border-width:0px 0.4px 0px 0.4px;
+	-fx-text-fill:#fff;
 }
 
 .calendar_other {
-	-fx-background-color:#ecf0f1; 
+	-fx-background-color:#ecf0f1;
 	-fx-border-color:#bbb;
-	-fx-border-width:0px 0.4px 0px 0.4px; 
-	-fx-text-fill:#bbb;  
+	-fx-border-width:0px 0.4px 0px 0.4px;
+	-fx-text-fill:#bbb;
 }
 
 .calendar_sat {
-	-fx-background-color:#e4f0fc; 
+	-fx-background-color:#e4f0fc;
 	-fx-border-color:#bbb;
-	-fx-border-width:0px 0.4px 0px 0.4px; 
-	-fx-text-fill:#244765; 
+	-fx-border-width:0px 0.4px 0px 0.4px;
+	-fx-text-fill:#244765;
 }
 
 .calendar_sun {
-	-fx-background-color:#f2dae8; 
-	-fx-border-color:#bbb;   
-	-fx-border-width:0px 0.4px 0px 0.4px; 
+	-fx-background-color:#f2dae8;
+	-fx-border-color:#bbb;
+	-fx-border-width:0px 0.4px 0px 0.4px;
 	-fx-text-fill:#872226;
 }
 
 .selected_cell {
-	-fx-background-color: #0f5ca0;
+	-fx-background-color: #66b7ec;
 	-fx-text-fill:#fff;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .calendar_header {
-	-fx-background-color:#2c3e50;
+	-fx-background-color:#23466e;
 	-fx-border-color:#bbb;
 	-fx-border-width:0px 0.5px 0.5px 0.5px;
 	-fx-font-weight: bold;
@@ -67,26 +67,23 @@
 }
 
 .schedule_label {
-	-fx-background-radius: 3px;
-	-fx-border-radius:3px;
+	-fx-background-radius: 0.1em;
+	-fx-border-radius:0.1em;
 	-fx-border-color: #eee;
 	-fx-border-width: 1px;
-}
-
-.schedule_label_selected {
-	-fx-border-color: #2c3e50;
+	-fx-padding:0.0px 0.0px 0.0px 3px;
 }
 
 .calendar_pane_header {
-	-fx-background-color: #2c3e50; 
+	-fx-background-color: #23466e;
 	-fx-border-color:#fff;
-	-fx-border-width:0.5px; 
+	-fx-border-width:0.5px;
 	-fx-padding:0px 0px 0px 10px;
 	-fx-min-height: 35px;
 }
 
 .calendar_move_button {
-	-fx-background-color: #2c3e50; 
+	-fx-background-color: #23466e;
 
 	-fx-cursor: hand;
 	-fx-font-size: 9px;
@@ -96,7 +93,7 @@
 }
 
 .calendar_month_button {
-	-fx-background-color: #2c3e50;
+	-fx-background-color: #23466e;
 	-fx-cursor: hand;
 	-fx-font-size: 14px;
 	-fx-text-fill: #fff;
