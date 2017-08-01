@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TaskManager.jnlp">
+  <information>
+    <title>TaskManager</title>
+    <vendor>teruma</vendor>
+    <description>B-San</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TaskManager.jar" size="29148" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="schedule.Main"  name="B-San" />
+  <update check="background"/>
+</jnlp>

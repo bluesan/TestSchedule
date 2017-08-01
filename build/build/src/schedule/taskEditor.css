@@ -1,0 +1,72 @@
+.title_text {
+	-fx-pref-width: 380px;
+	-fx-padding: 5px 0px 5px 5px;
+}
+
+.task_button {
+	-fx-pref-width: 70px;
+	-fx-pref-height: 29px;
+	-fx-background-color: #2c3e50;
+	-fx-text-fill: #fff;
+	-fx-cursor:hand;
+}
+
+.task_button:hover {
+	-fx-background-color: #3d4f61;
+}
+
+.header {
+	-fx-background-color: #2c3e50;
+	-fx-pref-height: 30px;
+}
+
+.combobox {
+	-fx-background-radius: 0.3em;
+	-fx-border-radius: 0.3em
+}
+
+.date_box {
+	-fx-spacing: 6px;
+	-fx-alignment: center-left;
+}
+
+.checker {
+	-fx-spacing:10px;
+	-fx-alignment:center-left ;
+	-fx-padding:3px 0px 3px 66px;
+}
+
+.time_box {
+	-fx-spacing: 5px;
+	-fx-padding: 0px 0px 0px 8px;
+	-fx-alignment: center-left;
+}
+
+.colors_box {
+	-fx-spacing: 5px;
+	-fx-padding: 0px 0px 0px 8px;
+	-fx-alignment: center-left;
+}
+
+.locate_text {
+	-fx-pref-width: 318px;
+	-fx-padding: 5px 0px 5px 5px;
+}
+
+.locate_box {
+	-fx-spacing: 6px;
+	-fx-padding: 0px 0px 0px 8px;
+	-fx-alignment: center-left;
+}
+
+.calendar_box {
+	-fx-spacing: 6px;
+	-fx-padding: 0px 0px 0px 13px;
+	-fx-alignment: center-left;
+}
+
+.detail_box {
+	-fx-spacing: 6px;
+	-fx-padding: 0px 0px 0px 8px;
+	-fx-alignment: center-left;	
+}

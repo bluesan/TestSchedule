@@ -1,0 +1,122 @@
+.select_header {
+	-fx-background-color: #2c3e50; 
+	-fx-border-color:#fff;
+	-fx-border-width:0.5px; 
+	-fx-min-height: 35px;
+}
+
+.kind_header {
+	-fx-background-color:#2c3e50;
+	-fx-border-color:#bbb;
+	-fx-border-width:0px 0.5px 0.5px 0.5px;
+	-fx-font-weight: bold;
+	-fx-text-fill:#fff;
+}
+
+.calendar_normal {
+	-fx-background-color:#ecf0f1; 
+	-fx-border-color:#bbb;
+	-fx-border-width:0px 0.4px 0px 0.4px; 
+	-fx-text-fill:#34495e;  
+}
+
+.calendar_today {
+	-fx-background-color:#16a085; 
+	-fx-border-color:#bbb;
+	-fx-border-width:0px 0.4px 0px 0.4px; 
+	-fx-text-fill:#fff;  
+}
+
+.calendar_other {
+	-fx-background-color:#ecf0f1; 
+	-fx-border-color:#bbb;
+	-fx-border-width:0px 0.4px 0px 0.4px; 
+	-fx-text-fill:#bbb;  
+}
+
+.calendar_sat {
+	-fx-background-color:#e4f0fc; 
+	-fx-border-color:#bbb;
+	-fx-border-width:0px 0.4px 0px 0.4px; 
+	-fx-text-fill:#244765; 
+}
+
+.calendar_sun {
+	-fx-background-color:#f2dae8; 
+	-fx-border-color:#bbb;   
+	-fx-border-width:0px 0.4px 0px 0.4px; 
+	-fx-text-fill:#872226;
+}
+
+.selected_cell {
+	-fx-background-color: #0f5ca0;
+	-fx-text-fill:#fff;
+}
+
+.draged_cell {
+	-fx-background-color: #eabf4c;
+	-fx-text-fill:#fff;
+}
+
+.calendar_header {
+	-fx-background-color:#2c3e50;
+	-fx-border-color:#bbb;
+	-fx-border-width:0px 0.5px 0.5px 0.5px;
+	-fx-font-weight: bold;
+	-fx-text-fill:#fff;
+}
+
+.schedule_label {
+	-fx-background-radius: 3px;
+	-fx-border-radius:3px;
+	-fx-border-color: #eee;
+	-fx-border-width: 1px;
+}
+
+.schedule_label_selected {
+	-fx-border-color: #2c3e50;
+}
+
+.calendar_pane_header {
+	-fx-background-color: #2c3e50; 
+	-fx-border-color:#fff;
+	-fx-border-width:0.5px; 
+	-fx-padding:0px 0px 0px 10px;
+	-fx-min-height: 35px;
+}
+
+.calendar_move_button {
+	-fx-background-color: #2c3e50; 
+
+	-fx-cursor: hand;
+	-fx-font-size: 9px;
+	-fx-min-height: 15px;
+	-fx-min-width: 15px;
+	-fx-text-fill:#fff;
+}
+
+.calendar_month_button {
+	-fx-background-color: #2c3e50;
+	-fx-cursor: hand;
+	-fx-font-size: 14px;
+	-fx-text-fill: #fff;
+}
+
+.scroll_pane {
+    -fx-background-insets: 0;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #ccc;
+    -fx-padding: 0;
+}
+
+.scroll_pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll_pane .corner {
+    -fx-background-insets: 0;
+}
+
+.popup {
+	-fx-background-color: #eee;
+}
